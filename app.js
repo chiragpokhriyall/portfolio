@@ -61,6 +61,7 @@
   }
   if (safeUrl(data.resume, true) && $('#resume-link')) {
     $('#resume-link').href = safeUrl(data.resume, true);
+    document.querySelectorAll('[data-resume-download], [data-resume-view]').forEach(node => {node.href = safeUrl(data.resume, true); node.hidden = false;});
     $('#resume-link').hidden = false; if ($('#resume')) $('#resume').hidden = false; document.querySelectorAll('[data-resume-nav]').forEach(n => { n.hidden = false; });
   }
   const projects = (data.projects || []).filter(p => p.published === true && /^[a-z0-9-]+$/.test(p.slug) && p.title && p.question && p.contribution && p.methodology && p.findings && p.assumptions && p.limitations);

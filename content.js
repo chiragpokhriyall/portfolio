@@ -48,7 +48,7 @@ window.PORTFOLIO = {
     "instagram": "https://www.instagram.com/chiragpokhriyal007/"
   },
   "email": "Chiragpokhriyall@gmail.com",
-  "resume": null,
+  "resume": "assets/resume.pdf",
   "projects": [],
   "phone": "+91 9710031888",
   "tagline": "Understanding businesses. Evaluating value.",
