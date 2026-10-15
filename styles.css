@@ -44,13 +44,13 @@ button{font:inherit;cursor:pointer}summary:focus-visible,button:focus-visible{ou
 #contact a.contact-card:hover{background:#eaf3ff;border-color:#7eaddc}
 .contact-icon{display:flex;align-items:center;justify-content:center;width:42px;height:42px;background:#e1edfc;color:#095ca9;border-radius:12px;margin-bottom:5px}
 .contact-icon svg{width:24px;height:24px}
-#contact .small-label{font-size:14px;line-height:1.5;font-weight:700;color:#304c6c;letter-spacing:.5px;text-transform:none}
+#contact .small-label{font-size:18px;line-height:1.5;font-weight:700;color:#172b47;letter-spacing:.5px;text-transform:none}
 #contact .contact-value{font-size:clamp(16px,1.6vw,20px);font-weight:650;line-height:1.55;color:#142a46;overflow-wrap:anywhere}
-#contact .contact-card-hint{font-size:14px;color:#405d7c;line-height:1.5}
+#contact .contact-card-hint{font-size:16px;color:#243b53;font-weight:550;line-height:1.5}
 #contact .contact-actions{gap:14px}
 #contact .contact-social{min-height:54px;gap:12px;padding:14px 25px;font-size:17px;font-weight:650;border:1px solid transparent;box-shadow:0 5px 12px #172b4714}
-.contact-social svg{width:23px;height:23px;flex-shrink:0}
-.social-monogram{font-size:12px;font-weight:750;border:1px solid #ffffff80;border-radius:6px;padding:4px}
+.contact-social svg{width:26px;height:26px;flex-shrink:0}
+
 #contact .social-linkedin{background:#0a66c2;color:white;border-color:#0a66c2}
 #contact .social-github{background:#172b47;color:white;border-color:#172b47}
 #contact .social-instagram{background:#a92c63;color:white;border-color:#a92c63}
@@ -58,6 +58,6 @@ button{font:inherit;cursor:pointer}summary:focus-visible,button:focus-visible{ou
 #contact .social-linkedin .linkedin-icon{background:white;color:#0a66c2}
 .portfolio-disclaimer{max-width:960px;margin:30px auto 0;padding:25px 28px;border-left:3px solid #8cabc9;text-align:left;background:#e8eff7;border-radius:0 12px 12px 0;color:#324b65}
 .portfolio-disclaimer h3{font-size:16px;letter-spacing:0;font-weight:700;margin:0 0 10px;color:#172b47}
-.portfolio-disclaimer p{font-size:15px;line-height:1.8;margin:0}
+.portfolio-disclaimer p{font-size:16px;line-height:1.8;margin:0;color:#172b47;font-weight:500}
 @media(max-width:900px){.contact-panel{padding:38px 26px}#contact .contact-details{grid-template-columns:1fr 1fr}#contact .contact-card:first-child{grid-column:1/-1}}
-@media(max-width:550px){#contact{padding:58px 0 32px}.contact-panel{padding:32px 20px;border-radius:22px}#contact h2{letter-spacing:-1.2px}#contact .contact-intro{font-size:18px}#contact .contact-details{grid-template-columns:1fr;gap:12px;margin-top:26px}#contact .contact-card{padding:22px}#contact .contact-social{width:100%;justify-content:center;min-height:54px}.portfolio-disclaimer{padding:22px 20px}.portfolio-disclaimer p{font-size:15px}}
+@media(max-width:550px){#contact{padding:58px 0 32px}.contact-panel{padding:32px 20px;border-radius:22px}#contact h2{letter-spacing:-1.2px}#contact .contact-intro{font-size:18px}#contact .contact-details{grid-template-columns:1fr;gap:12px;margin-top:26px}#contact .contact-card{padding:22px}#contact .contact-social{width:100%;justify-content:center;min-height:54px}.portfolio-disclaimer{padding:22px 20px}.portfolio-disclaimer p{font-size:16px}}
