@@ -112,8 +112,8 @@
   setText('[data-secondary-sectors]', d.secondarySectors);
   $('#about-story').replaceChildren(...d.aboutParagraphs.map(paragraph));
   $('#focus-areas').replaceChildren(...d.focusAreas.map(text => {const li = document.createElement('li'); li.textContent = text; return li;}));
-  const email = $('#public-email'); email.textContent = ''; email.append(Object.assign(document.createElement('span'),{className:'small-label',textContent:'EMAIL'}),Object.assign(document.createElement('span'),{textContent:d.email})); email.href = 'mailto:' + d.email;
-  const phone = $('#public-phone'); phone.lastElementChild.textContent = d.phone; phone.href = 'tel:' + d.phone.replace(/[^+\d]/g,'');
+  const email = $('#public-email'); email.querySelector('.contact-value').textContent = d.email; email.href = 'mailto:' + d.email;
+  const phone = $('#public-phone'); phone.querySelector('.contact-value').textContent = d.phone; phone.href = 'tel:' + d.phone.replace(/[^+\d]/g,'');
   const template = $('#experience-list .experience-item').cloneNode(true);
   const updateCertificate = (container, source, title, landscape) => {
     const card = container.querySelector('.certificate-card');
